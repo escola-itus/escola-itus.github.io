@@ -272,9 +272,6 @@
     font-weight: bold;
     margin-bottom: 1.5rem;
     color: #07224B;
-    animation-name: blink2;
-    animation-duration: 2s;
-    animation-iteration-count: 10;
 }
 
 form {
@@ -317,6 +314,10 @@ input[type="button"] {
     font-family: var(--palito);
     /* font-weight: bold; */
     background-color: #279913;
+    font-weight: bold;
+    animation-name: blink2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 input[type="submit"] {
@@ -490,6 +491,15 @@ input[type="submit"] {
     0%{background-color: #07224B;}
     50%{background-color: #004aad;}
     100%{background-color: #07224B;}
+    
+  
+  }
+
+  @keyframes blink2{
+  
+    0%{background-color: #208C2C;}
+    50%{background-color: #38b6773B;}
+    100%{background-color: #208C2C;}
     
   
   }
