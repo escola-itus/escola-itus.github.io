@@ -309,22 +309,21 @@ form a {
     /* position: relative; */
 }
 
-input[type="button"] {
-    color: white;
-    font-family: var(--palito);
-    /* font-weight: bold; */
-    background-color: #279913;
-    font-weight: bold;
-    animation-name: blink2;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
 input[type="submit"] {
     color: white;
     background-color: #0047aB;
     font-weight: bold;
     animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+input[type="button"] {
+    color: white;
+    font-family: var(--palito);
+    background-color: #279913;
+    font-weight: bold;
+    animation-name: blink2;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
@@ -495,11 +494,8 @@ input[type="submit"] {
   
   }
 
-  @keyframes blink2{
-  
+@keyframes blink2{
     0%{background-color: #208C2C;}
     50%{background-color: #38b6773B;}
     100%{background-color: #208C2C;}
-    
-  
   }
